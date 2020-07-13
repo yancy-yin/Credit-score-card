@@ -4,7 +4,7 @@ Credit score card, using "Give me some credit" dataset.
 
 信用评分卡 开发流程
 
-一. 数据获取
+# 一. 数据获取
 
 面向的客户群体： 
 
@@ -26,7 +26,7 @@ Credit score card, using "Give me some credit" dataset.
 
 特征数量：10个
 
-二. 数据清洗
+# 二. 数据清洗
 
 目的：为了将获取的原始数据转化为可用作模型开发的格式化数据
 
@@ -40,7 +40,7 @@ Credit score card, using "Give me some credit" dataset.
 
 意义：保证数据的完整性、全面性、合法性、唯一性
 
-三. 数据分箱
+# 三. 数据分箱
 
 定义：是一种局部平滑方法，通过考察“邻居”（周围的值）来平滑存储数据的值，是对连续变量离散化的一种称呼
 
@@ -68,7 +68,7 @@ Credit score card, using "Give me some credit" dataset.
 
 （4）特征离散化后，可以简化回归模型，降低模型过拟合的风险 （5）可以将缺失作为独立的一类带入模型
 
-四. 相关性分析
+# 四. 相关性分析
 
 定义：对两个或多个具备相关性的变量元素进行分析，从而衡量两个变量因素的相关密切程度
 
@@ -106,15 +106,9 @@ Credit score card, using "Give me some credit" dataset.
 
 意义：当自变量较多时，可以判断有无多重共线性问题
 
-五. 变量选择
+# 五. 变量选择
 
-定义：通过统计学的方法，筛选出对违约状态影响最显著的指标，主要包括
-
-分类： 
-
-（1）单变量特征选择方法 
-
-（2）基于机器学习模型的方法
+定义：通过统计学的方法，筛选出对违约状态影响最显著的指标，主要包括单变量特征选择方法 和基于机器学习模型的方法
 
 评价指标： 
 
@@ -128,7 +122,7 @@ Credit score card, using "Give me some credit" dataset.
 
 （2）选取比较重要的变量加入模型，预测强度可以作为判断变量是否重要的一个依据
 
-六. 模型建立与评估
+# 六. 模型建立与评估
 
 常用模型： 
 
@@ -154,7 +148,7 @@ Credit score card, using "Give me some credit" dataset.
 
 （3）稳定性
 
-七. 构建评分卡
+# 七. 构建评分卡
 
 参数： 
 
@@ -172,4 +166,4 @@ Credit score card, using "Give me some credit" dataset.
 
 计算方法：个人总评分 = 基础分 + 各部分得分
 
-八. 生成评分卡
+# 八. 生成评分卡
