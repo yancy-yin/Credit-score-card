@@ -5,10 +5,18 @@ Credit score card, using "Give me some credit" dataset, with detailed describe i
 一. 数据获取
 
 面向的客户群体： 
+
 （1）存量客户数据（已开展相关融资类业务的客户，包括个人客户和机构客户）
+
 （2）潜在客户数据（未来拟开展相关融资类业务的客户）
+
 数据集描述： 
-（1）名称：Give Me Some Credit （2）来源：Kaggle上一个经典的评分卡案例 （3）内容： 基本属性：包括了借款人当时的年龄 偿债能力：包括了借款人的月收入、负债比率 信用往来：两年内35-59天逾期次数、60-89天逾期次数、90天或高于90天逾期的次数 财产状况：包括了开放式信贷和贷款数量、不动产贷款或额度数量 贷款属性：暂无 其他因素：包括了借款人的家属数量（不包括本人在内） 时间窗口：自变量的观察窗口为过去两年，因变量表现窗口为未来两年 （3）属性： 'ID':'用户ID' 'SeriousDlqin2yrs':'好坏客户' 'RevolvingUtilizationOfUnsecuredLines':'可用额度比值' 'age':'年龄' 'NumberOfTime30-59DaysPastDueNotWorse':'逾期30-59天笔数' 'DebtRatio':'负债率' 'MonthlyIncome':'月收入' 'NumberOfOpenCreditLinesAndLoans':'信贷数量' 'NumberOfTimes90DaysLate':'逾期90天笔数' 'NumberRealEstateLoansOrLines':'固定资产贷款量' 'NumberOfTime60-89DaysPastDueNotWorse':'逾期60-89天笔数' 'NumberOfDependents':'家属数量'
+
+（1）名称：Give Me Some Credit 
+
+（2）来源：Kaggle上一个经典的评分卡案例 
+
+（3）内容： 基本属性：包括了借款人当时的年龄 偿债能力：包括了借款人的月收入、负债比率 信用往来：两年内35-59天逾期次数、60-89天逾期次数、90天或高于90天逾期的次数 财产状况：包括了开放式信贷和贷款数量、不动产贷款或额度数量 贷款属性：暂无 其他因素：包括了借款人的家属数量（不包括本人在内） 时间窗口：自变量的观察窗口为过去两年，因变量表现窗口为未来两年 （3）属性： 'ID':'用户ID' 'SeriousDlqin2yrs':'好坏客户' 'RevolvingUtilizationOfUnsecuredLines':'可用额度比值' 'age':'年龄' 'NumberOfTime30-59DaysPastDueNotWorse':'逾期30-59天笔数' 'DebtRatio':'负债率' 'MonthlyIncome':'月收入' 'NumberOfOpenCreditLinesAndLoans':'信贷数量' 'NumberOfTimes90DaysLate':'逾期90天笔数' 'NumberRealEstateLoansOrLines':'固定资产贷款量' 'NumberOfTime60-89DaysPastDueNotWorse':'逾期60-89天笔数' 'NumberOfDependents':'家属数量'
 样本数量：150000条
 特征数量：10个
 二. 数据清洗
