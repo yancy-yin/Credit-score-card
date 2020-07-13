@@ -1,5 +1,7 @@
 # Credit-score-card-Give-me-some-credit
+
 Credit score card, using "Give me some credit" dataset.
+
 信用评分卡 开发流程
 
 一. 数据获取
